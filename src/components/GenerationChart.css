@@ -1,0 +1,58 @@
+.container {
+	min-height: 100vh;
+	background-color: #fafafa;
+}
+
+.main {
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	width: clamp(300px, 50%, 800px);
+	height: 70vh;
+	background-color: white;
+	border-radius: 0.7rem;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+		0 4px 6px -4px rgba(0, 0, 0, 0.1);
+	padding: 1rem 1.5rem 1.5rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 1.875rem;
+	font-weight: 700;
+	color: #1f2937;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.chart-wrapper {
+	position: relative;
+	width: 100%;
+	height: 80%;
+}
+
+.tooltip {
+	background-color: white;
+	padding: 0.75rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+		0 4px 6px -4px rgba(0, 0, 0, 0.1);
+	border: 1px solid #e5e7eb;
+}
+
+.tooltip-title {
+	display: block;
+	color: #1f2937;
+}
+
+.tooltip-value {
+	font-size: 0.875rem;
+	color: #4b5563;
+}
