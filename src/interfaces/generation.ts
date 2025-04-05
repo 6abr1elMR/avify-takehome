@@ -1,5 +1,7 @@
-export interface Generation {
-	fuel: String;
+import { BarDatum } from '@nivo/bar';
+
+export interface Generation extends BarDatum {
+	fuel: string;
 	perc: number;
 }
 
