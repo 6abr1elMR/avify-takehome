@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "test": "jest",
+    "build": "webpack",
     "start": "webpack-dev-server --hot --progress"
   },
   "dependencies": {
